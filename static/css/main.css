@@ -50,8 +50,7 @@ header h1.logo:hover {
   background: #fff; padding: 24px 32px;
 
 }
-.legend img {width:50%;}
-.legend {text-align: right;}
+
 .image_holder .text p {
   margin: 0 0 1.2em;
   line-height: 1.6em;
@@ -102,3 +101,26 @@ h3 {
 .left {float : left;width : 48%;padding-right : 4%;}
 .right {float : right; width : 48%;}
 .project {overflow : hidden;}
+
+
+.map {
+  width: 1000px; margin: 0 auto;
+  padding-top: 96px;
+}
+.map h1 {line-height: 1.2em; margin: 0 0 0.8em;}
+
+
+.iframe-holder {position: relative;}
+.legend {
+  display: inline-block; width: auto;
+  position: absolute; top: 20px; right: 20px;
+  text-align: right;
+  padding: 12px 16px; background: #f5f5f5;
+  border-radius: 6px; box-shadow: 0 2px 5px 3px rgba(0,0,0,0.3);
+}
+.legend p {
+  display: inline; vertical-align: top;
+  color: #999; font-weight: bold; font-size: 14px;
+  text-transform: uppercase; padding-right: 8px;
+}
+.legend img {width:320px; vertical-align: middle;}
