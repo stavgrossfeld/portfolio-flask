@@ -1,0 +1,104 @@
+@import 'normalize.css';
+
+body {
+  margin: 0; padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  background-color: #f5f5f5;
+  font-size: 16px; line-height: 1.4em;
+}
+
+p {
+  font-size: 16px; line-height: 1.56em;
+  margin-bottom: 1.2em;
+}
+/*
+ * Formatting the header area
+ */
+header {
+  padding-top: 24px;
+  background-color: #f5f5f5;
+  height: 64px;
+}
+
+header h1.logo {
+  margin: 0;
+  font-size: 1.7em; color: #333;
+  text-transform: uppercase;
+  float: left;
+  line-height: 64px;
+}
+header h1.logo:hover {
+  color: #222;
+  text-decoration: none;
+}
+/*
+ * Centering the body content
+ */
+.container {
+  width: 1200px;
+  margin: auto;
+}
+.image_holder {text-align:center; position: relative;}
+.image_holder img {width:100%;}
+.image_holder .text {
+  position: absolute;
+  border-radius: 4px;
+  top: 64px; left: 64px;
+  width: 32%;
+  text-align: left;
+  background: #fff; padding: 24px 32px;
+
+}
+.legend img {width:50%;}
+.legend {text-align: right;}
+.image_holder .text p {
+  margin: 0 0 1.2em;
+  line-height: 1.6em;
+  color: #666; text-align: left;
+  text-shadow: 0 1px 18px rgba(255,255,255,0.5);
+}
+.image_holder .text h1 {
+  color: #5384b2;
+}
+
+
+div.home {
+  padding: 10px 0 30px;
+}
+div.about {
+  padding: 10px 0 30px;
+}
+
+h2 {
+  font-size: 3em;
+  margin-top: 40px;
+  letter-spacing: -2px;
+}
+h3 {
+  font-size: 1.7em;
+  font-weight: 100;
+  margin-top: 30px;
+  letter-spacing: -1px;
+  color: #999;
+}
+.menu {
+  float: right; margin: 0; padding: 0;
+}
+.menu li {
+  display: inline-block; line-height: 64px;
+}
+.menu li + li {
+  margin-left: 32px;
+}
+.menu li a {
+  color: #666; text-decoration: none;
+  font-size: 18px; font-weight: bold;
+}
+.menu li a:hover {
+  color: #5384b2;
+}
+
+.left {float : left;width : 48%;padding-right : 4%;}
+.right {float : right; width : 48%;}
+.project {overflow : hidden;}

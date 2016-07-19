@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+{% extends "layout.html" %}
+{% block content %}
+<div class="about">
+
+  <div class="jupyter">
+  <iframe src="https://nbviewer.jupyter.org/github/stavgrossfeld/DSI-SF-1-STAVGROSSFELD/blob/master/capstone/final-notebook.ipynb
+" width="1000" height="1000" style="border:none;" ></iframe>
+  </div>
+         <div class="map">
+           <h1>crime map</h1>
+           <p>rental price.</p>
+           <div class="legend">
+           <IMG src= {{ url_for('static', filename='images/label.png') }} ALT="some text">
+           </div>
+           <iframe src="http://localhost:5000/map" width="1000" height="500" style="border:none;"></iframe>
+         </div>
+      </div>
+
+
+{% endblock %}
+  </body>
+</html>
