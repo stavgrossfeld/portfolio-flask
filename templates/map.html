@@ -2,11 +2,30 @@
 <html>
   <body>
 {% extends "layout.html" %}
-<!--{% include "cluster.html" %}-->
-{% block content %}
-{% endblock %}
+
+
+<!-- <div class="legendmap">
+     <p>Rental price</p>
+     <IMG src= {{ url_for('static', filename='images/label.png') }} ALT="some text">
+</div>
 <div class="map">
   <iframe src="cluster.html" width="200" height="200" style="border:none;"></iframe>
-</div>
+</div> -->
+
+
+{% block content %}
+<div class="map_new">
+
+    <section class="iframe-holder">
+      <div class="legend">
+           <p>Rental price</p>
+           <IMG src= {{ url_for('static', filename='images/label.png') }} ALT="some text">
+      </div>
+        <iframe src="http://localhost:5000/map_path" width=1500 height=750 position=absolute style="border:none;"></iframe>
+
+    </section>
+ </div>
+{% endblock %}
   </body>
+
 </html>

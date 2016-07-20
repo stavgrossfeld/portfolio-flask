@@ -16,6 +16,9 @@ def about():
 @app.route('/map/')
 def map():
     return render_template('map.html')
+@app.route('/map_path/')
+def map_path():
+    return render_template('map_path.html')
 
 
 if __name__ == '__main__':

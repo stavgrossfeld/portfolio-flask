@@ -138,7 +138,11 @@ h3 {
 .map h1 {line-height: 1.2em; margin: 0 0 0.8em;}
 
 
-.iframe-holder {position: relative;}
+
+.iframe-holder {position: relative;width:auto;}
+
+
+
 .legend {
   display: inline-block; width: auto;
   position: absolute; top: 20px; right: 20px;
@@ -152,3 +156,18 @@ h3 {
   text-transform: uppercase; padding-right: 8px;
 }
 .legend img {width:320px; vertical-align: middle;}
+
+
+.legendmap {
+  display: inline-block; width: auto;
+  position: absolute; top: 20px; right: 20px;
+  text-align: right;
+  padding: 12px 16px; background: #f5f5f5;
+  border-radius: 6px; box-shadow: 0 2px 5px 3px rgba(0,0,0,0.3);
+}
+.legendmap p {
+  display: inline; vertical-align: top;
+  color: #999; font-weight: bold; font-size: 14px;
+  text-transform: uppercase; padding-right: 8px;
+}
+.legendmap img {width:320px; vertical-align: middle;}
