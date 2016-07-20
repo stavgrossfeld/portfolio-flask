@@ -171,3 +171,21 @@ h3 {
   text-transform: uppercase; padding-right: 8px;
 }
 .legendmap img {width:320px; vertical-align: middle;}
+
+.folium-map{
+  position:fixed!important;
+  top:100px!important;
+  right:0;
+  left:0;
+  bottom:0;
+  z-index:5;
+  overflow:hidden;}
+
+.legend{
+  position: fixed;
+  top: 15px;
+  left: 30px;
+  width: 350px;
+  z-index: 5;
+  box-shadow: none;
+}

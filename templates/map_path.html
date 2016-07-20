@@ -3,7 +3,15 @@
   <body>
 {% block content %}
 {% include "cluster.html" %}
+<div class="map_new">
 
+    <section class="iframe-holder">
+      <div class="legend">
+           <p>Rental price</p>
+           <IMG src= {{ url_for('static', filename='images/label.png') }} ALT="some text";>
+      </div>
+    </section> position:relative z-index: 2
+ </div>
 {% endblock %}
  </body>
 

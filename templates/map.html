@@ -12,8 +12,9 @@
   <iframe src="cluster.html" width="200" height="200" style="border:none;"></iframe>
 </div> -->
 
-
+{% include "cluster.html" %}
 {% block content %}
+
 <div class="map_new">
 
     <section class="iframe-holder">
@@ -21,7 +22,7 @@
            <p>Rental price</p>
            <IMG src= {{ url_for('static', filename='images/label.png') }} ALT="some text">
       </div>
-        <iframe src="http://localhost:5000/map_path" width=1500 height=750 position=absolute style="border:none;"></iframe>
+        <!-- <iframe src="http://localhost:5000/map_path" width=1500 height=750 position=absolute style="border:none;"></iframe> -->
 
     </section>
  </div>
