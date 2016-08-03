@@ -21,5 +21,6 @@ def map_path():
     return render_template('map_path.html')
 
 
+
 if __name__ == '__main__':
     app.run(debug=True)
