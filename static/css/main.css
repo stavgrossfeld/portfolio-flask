@@ -125,6 +125,7 @@ h3 {
   letter-spacing: 0.03em;
   cursor: pointer;
   transition: all 0.2s ease;
+  text-decoration: none;
 }
 .btn:active {
   transform: scale(0.98);
